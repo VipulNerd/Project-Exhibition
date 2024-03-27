@@ -1,0 +1,154 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+    display: flex;
+    /* Added flexbox for navigation alignment */
+    justify-content: space-between;
+    /* Space navigation items evenly */
+    transition: background-color 0.5s ease;
+
+}
+
+img {
+    margin-left: 350px;
+    position: sticky;
+
+}
+
+.first-p {
+    text-align: center;
+    font-style: italic;
+}
+
+.first-h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+h1,
+h2 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    /* Increased font size for headings */
+    transition: color 0.5s ease;
+}
+
+h1 {
+    color: #f0f0f0;
+    /* Lighter color for main heading */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* Removed margin for better alignment */
+}
+
+nav li {
+    display: inline-block;
+    /* Display navigation items inline */
+    margin-right: 20px;
+    /* Add spacing between navigation items */
+}
+
+nav a {
+    color: #ddd;
+    /* Lighter color for navigation links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #222;
+
+    /* White color on hover */
+}
+
+main {
+    padding: 50px;
+}
+
+.introduction,
+.services,
+.membership,
+.featured,
+.rest,
+.hero {
+    /* Added hero section to transition list */
+    margin-bottom: 50px;
+    background-color: #1a1a1a;
+    /* Darker background for sections */
+    border-radius: 5px;
+    padding: 20px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    margin-bottom: 10px;
+    color: #ddd;
+    /* Lighter text color for services */
+}
+
+.membership a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.membership a:hover {
+    background-color: #222;
+}
+
+.featured img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+.introduction:hover,
+.services:hover,
+.membership:hover,
+.featured:hover,
+.rest:hover,
+.hero:hover {
+    background-color: #47a14a;
+    /* Slightly lighter background on hover */
+    transform: scale(1.02);
+    /* Added subtle scale on hover */
+}
+
+header:hover {
+    background-color: #47a14a;
+    /* Darken header on hover */
+}
+
+a {
+    color: coral;
+}
+
+a:hover {
+    background-color: #222;
+    color: #ddd;
+}
